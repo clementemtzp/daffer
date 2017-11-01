@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+body{
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	color: #727275;
+}
+i{
+	color: #727275;
+}
+.padding0{
+	padding: 0px;
+	display: inline-grid;
+}
+.menu{
+	margin-bottom: 0px;
+	background: #fff;
+	color: #727275;
+	height: 80px;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li{
+	background-color: #fff;
+	padding-top: 15px;
+}
+.navbar-default .navbar-nav>li>a{
+	color:#333;
+	font-size: 16px;
+}
+.principal{
+	background: url(../img/bg.jpg) center fixed;
+    background-color: #000;
+    margin-top: 80px;
+    padding-top:70px;
+    padding-bottom:70px;
+    position: relative 
+}
+.principal h1{
+	color: #fff;
+	text-shadow: 0 0 5px #030303;
+	font-size: 46px;
+}
+.principal h4{
+	color: #fff;
+	font-size: 24px;
+	text-shadow: 0 0 5px #030303;
+}
+#servicios{
+	overflow: hidden;
+}
+#servicios h1{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 5px solid #cc353a;
+}
+.boton{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.rs{
+	padding: 5px;
+	color: #fff;
+}
+/*Emty Software*/
+.iconos{
+	color: #f58634;
+	padding-right: 5px;
+}
+.formulario{
+	background-color: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.formulario h3{
+	color:#333;
+}
+.caja{
+	margin-bottom: 50px;
+	padding: 10px;
+}
+.imagenes{
+	display: block;
+  	position: relative
+}
+
+.imagenes .filtro {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+}
+.imagenes.v1 .filtro{
+  background: rgba(0,0,0, 0.3);
+  -webkit-animation: animatedhover 1s ease infinite;
+  animation: animatedBackground 1s ease infinite;
+}
+.imagenes img {
+  transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+}
+
+.imagenes:hover .filtro {
+  background: none !important;
+  transition: all 1s ease;
+  -o-transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+}
+.imagenes:hover img {
+  transition: all 1s;
+  transform: rotate(6deg) scale(1.2);
+}
+.imagenes {
+  overflow: hidden;
+}
+.imagenes .titulo {
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    opacity: 0.3;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.imagenes .titulo:hover {
+    background-color: rgb(0,0,0,0.7);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    opacity: 1;
+    transition: all 1s;
+}
+.imagenes h2 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top:30%;
+    color:#fff;
+}
+footer{
+	background-color: #cc353a;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+}
+footer a{
+	color:#fff;
+}
