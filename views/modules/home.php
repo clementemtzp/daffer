@@ -67,7 +67,7 @@
         <div class="col-xs-12 col-md-4 padding0">          
             <div class="imagenes v1">
               <a href="home">
-                <img src="views/img/Contabilidad.png" class="img-responsive mover">
+                <img src="views/img/contabilidad.png" class="img-responsive mover">
                 <div class="filtro"></div>
                 <h2 class="titulo">Contabilidad Gubernamental</h2>
               </a>
